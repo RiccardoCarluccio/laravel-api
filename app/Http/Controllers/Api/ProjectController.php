@@ -10,7 +10,7 @@ use App\Models\Project;
 class ProjectController extends Controller
 {
     public function index() {
-            $projects = Project::with(["type"])->paginate(5);                                   //"technologies" non migra la tabella e di conseguenza non funziona
+            $projects = Project::with(["type"])->paginate(5);
             return response()->json($projects);
     }
 }

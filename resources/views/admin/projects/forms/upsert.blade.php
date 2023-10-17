@@ -29,7 +29,7 @@
                         {{ $type->type }}
                     </option>
                 @endforeach
-            </select>                
+            </select>
             @error('type')
                 <div class="invalid_feedback">{{ $message }}</div>
             @enderror

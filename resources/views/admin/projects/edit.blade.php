@@ -15,6 +15,6 @@
         'action' => route('admin.projects.update', $project->slug),
         'method' => 'PATCH',
         'project' => $project,
-        'type' => $type,
+        'type' => $types,
     ])
 @endsection

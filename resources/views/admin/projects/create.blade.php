@@ -15,6 +15,6 @@
         'action' => route('admin.projects.store'),
         'method' => 'POST',
         'project' => null,
-        'type' => $type,
+        'type' => $types,
     ])
 @endsection
